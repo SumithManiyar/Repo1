@@ -1,0 +1,11 @@
+{
+  "name": "",
+  "workExperience": 0,
+  "employerName": "",
+  "country": "",  
+  "skills": ["ABAP", "UI5", "BTP", "S/4 HANA"],
+  "budget": 0,
+  "email":"",
+  "submit": true,
+  "approved":false
+}

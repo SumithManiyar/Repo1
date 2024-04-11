@@ -1,0 +1,82 @@
+{
+    "id": "employeedetasils",
+    "schemaVersion": "1.1.0",
+    "name": "employeeDetasils",
+    "revision": "1.0",
+    "type": "task",
+    "readOnly": false,
+    "content": [
+        {
+            "id": "name",
+            "type": "string",
+            "label": "Name",
+            "readOnly": false,
+            "value": "${context.name}",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "id": "work_experience",
+            "type": "string",
+            "label": "Work Experience",
+            "readOnly": false,
+            "value": "${context.workExperience}",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "id": "employer_name",
+            "type": "string",
+            "label": "Employer Name",
+            "readOnly": false,
+            "value": "${context.employerName}",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "id": "country",
+            "type": "string",
+            "label": "Country",
+            "readOnly": false,
+            "value": "${context.country}",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "id": "budget",
+            "type": "string",
+            "label": "Budget",
+            "readOnly": false,
+            "value": "${context.budget}",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "id": "email",
+            "type": "string",
+            "label": "Email",
+            "readOnly": false,
+            "value": "${context.email}",
+            "constraints": {
+                "required": false
+            }
+        }
+    ],
+    "decisions": [
+        {
+            "id": "approve",
+            "text": "Approve",
+            "decisionType": "positive"
+        },
+        {
+            "id": "reject",
+            "text": "Reject",
+            "decisionType": "negative"
+        }
+    ]
+}
